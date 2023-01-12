@@ -1,0 +1,22 @@
+{
+  "name": "git_test1",
+  "version": "1.0.0",
+  "description": "깃 테스트 용 입니다.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoonsun-yu/git_test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yoonsun-yu/git_test/issues"
+  },
+  "homepage": "https://github.com/yoonsun-yu/git_test#readme",
+  "dependencies": {
+    "prop-types": "^15.8.1"
+  }
+}
