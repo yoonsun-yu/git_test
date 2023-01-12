@@ -19,7 +19,7 @@
 function findMarketingIndex97(citations) {
     var answer = 0;
   
-    citations.sort((a, b) => a - b);
+    citations.sort((a, b) > a - b);
     let total = citations.length;
   
     for(let i = 0 ; i < total  ; i++ ) {
