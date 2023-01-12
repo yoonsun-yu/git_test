@@ -8,8 +8,8 @@
       파라미터 배열 값   
     
   표시 화면
-    1. 판매자 My 페이지
-    2. 상품 카탈로그 
+    1. 판매자 My 페이지 (담당자 : 김코즈)
+    2. 상품 카탈로그 (담당자 : 이코딩)
 
   예) findMarketingIndex97([9, 9, 9, 12])
       -> n : 4, x : 9,9,9,12 
@@ -19,7 +19,8 @@
 function findMarketingIndex97(citations) {
     var answer = 0;
   
-    citations.sort((a, b) > a - b);
+    citations.sort((a, b) => a - b);
+
     let total = citations.length;
   
     for(let i = 0 ; i < total  ; i++ ) {
